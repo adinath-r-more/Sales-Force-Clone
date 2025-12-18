@@ -662,13 +662,13 @@ h2:hover {
 .promotion_layout {
     margin: 35px 10%;
     border-radius: 20px;
+    display: flex;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .promotion {
     width: 80vw;
     height: 25vw;
-    display: flex;
 
 }
 
@@ -682,6 +682,17 @@ h2:hover {
     margin-left: 140px;
 }
 
-.promotion-btn {
-    padding-bottom: 20px;
+.promotion-btn{
+    margin-left: 70px;
+}
+
+.btn-2 {
+    padding: 15px 28px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.right img{
+    width: 100%;
 }
