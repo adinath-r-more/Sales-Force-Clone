@@ -645,8 +645,6 @@ h2:hover {
     border-radius: 8px;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    /* z-index: 15;
-    position: relative; */
 }
 
 .card__logomark__wrapper img{
@@ -655,10 +653,9 @@ h2:hover {
 }
 
 .bg-img-last img{
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    /* z-index: 5;
-    position: relative; */
+    width: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
 }
 
 
