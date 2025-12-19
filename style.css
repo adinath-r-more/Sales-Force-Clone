@@ -583,6 +583,7 @@ h2:hover {
     margin-top: 20px;
     cursor: pointer;
 
+
 }
 
 .box h3 {
@@ -632,8 +633,6 @@ h2:hover {
 
 
 .card__logomark__wrapper-main {
-    width: 100%;
-    height: 100%;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -657,6 +656,7 @@ h2:hover {
     width: 100%;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
+
 }
 
 .promotion_layout {
@@ -719,6 +719,8 @@ h2:hover {
 
 .relative-box img {
     width: 100%;
+    cursor: pointer;
+
 }
 
 .cta_container {
@@ -736,14 +738,17 @@ h2:hover {
     text-decoration: underline;
     color: #012037;
 }
+
 .p-2 {
     text-decoration: underline;
     color: #012037;
 }
+
 .p-3 {
     text-decoration: underline;
     color: #012037;
 }
+
 .p-4 {
     text-decoration: underline;
     color: #012037;
@@ -753,15 +758,106 @@ h2:hover {
     text-decoration: none;
     color: #0064b0;
 }
+
 .p-2:hover {
     text-decoration: none;
     color: #0064b0;
 }
+
 .p-3:hover {
     text-decoration: none;
     color: #0064b0;
 }
+
 .p-4:hover {
     text-decoration: none;
     color: #0064b0;
+}
+
+.card-story-4 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card-story-main h1 {
+    margin-top: 60px;
+}
+
+.card-story {
+    height: 210px;
+    text-align: center;
+
+}
+
+.card-story img {
+    width: 100%;
+    object-fit: cover;
+    height: 120%;
+    z-index: 20;
+}
+
+.bg-img-last-2 img {
+    margin-top: 53px;
+    width: 100%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+}
+
+.promotion_layout-main {
+    margin: 4vw 16vw;
+
+}
+
+.promotion_layout-1 {
+    width: 66vw;
+    height: 25vw;
+      background-image: url("https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/04/pb-hp-footer-mid3-in.jpg?resize=2048,1270");
+
+  background-size: cover;     
+  background-position: center;   
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+
+.promotion_layout-1 h1 {
+    padding-top: 30px;
+    z-index: 5;
+}
+
+.promotion_layout-1 p {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 23px;
+    font-size: larger;
+    font-weight: 300;
+}
+
+.promotion_layout-1 button {
+    background: #0078d4;
+    color: white;
+    border: 2px solid #0078D4;
+    transition: 0.3s;
+    padding: 16px 38px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 95px 360px;
+}
+
+.promotion_layout-1 button:hover{
+    background: #002a4a;
+}
+
+.promotion_layout-1 .last-p {
+    margin: 95px 545px;
+    position: absolute;
+    color: #003055;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.promotion_layout-1 .last-p:hover{
+    color: #0078d4;
 }
