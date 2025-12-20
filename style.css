@@ -11,6 +11,7 @@ body {
     height: 100%;
     width: 100%;
     font-family: "Roboto", sans-serif;
+    
 }
 
 .section {
@@ -32,6 +33,7 @@ body {
     background-color: white;
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* flex-wrap: wrap; */
 }
 
 h1 {
@@ -240,14 +242,6 @@ h1 {
     cursor: pointer;
 }
 
-
-
-@media screen and (max-width: 767px) {
-    .column {
-        width: 100%;
-        float: none;
-    }
-}
 
 /* Page-3 Starts */
 
@@ -832,7 +826,7 @@ h2:hover {
     padding-top: 20px;
     line-height: 23px;
     font-size: larger;
-    font-weight: 300;
+    font-weight: bolder;
 }
 
 .promotion_layout-1 button {
@@ -860,4 +854,204 @@ h2:hover {
 
 .promotion_layout-1 .last-p:hover{
     color: #0078d4;
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* Header */
+    #header {
+        justify-content: space-between;
+        padding: 0 15px;
+        height: 70px;
+    }
+
+    .texts,
+    #contactDetails,
+    .icon {
+        display: none;
+    }
+
+    #Try {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    /* Page 1 */
+    #page1 {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Page 2 */
+    #page2 {
+        grid-template-columns: 1fr;
+        padding: 60px 5%;
+        text-align: center;
+    }
+
+    #page2 .h1,
+    #page2 .h2 {
+        font-size: 36px;
+    }
+
+    #page2 p {
+        font-size: 16px;
+    }
+
+    .btn-group {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .video-box video {
+        height: auto;
+        max-width: 100%;
+    }
+
+    /* Templates */
+    .templats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .templat {
+        width: 90%;
+    }
+
+    /* Industry Cards */
+    .box1 {
+        flex-direction: column;
+    }
+
+    .card__content__wrapper {
+        width: 90%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    /* Grid */
+    .grid h1 {
+        font-size: 32px;
+    }
+
+    .grid p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 10px;
+    }
+
+    /* Module Cards */
+    .All-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+    }
+
+    /* Logos */
+    .card__logomark__wrapper-main {
+        flex-wrap: wrap;
+    }
+
+    /* Promotion Section */
+    .promotion_layout {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .promotion {
+        width: 100%;
+        height: auto;
+    }
+
+    .promotion .promotion-h1 {
+        padding: 30px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .promotion-btn {
+        margin: 20px;
+        text-align: center;
+    }
+
+    /* Relative Section */
+    .box-main {
+        flex-wrap: wrap;
+    }
+
+    .cta_container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    /* Story */
+    .card-story-4 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* Footer Promo */
+    .promotion_layout-main {
+        margin: 20px;
+    }
+
+    .promotion_layout-1 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .promotion_layout-1 button {
+        margin: 30px auto;
+        display: block;
+    }
+
+    .promotion_layout-1 .last-p {
+        position: static;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    #page2 {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .templat {
+        width: 45%;
+    }
+
+    .box1 {
+        flex-wrap: wrap;
+    }
+
+    .card__content__wrapper {
+        width: 45%;
+    }
+
+    .All-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 45%;
+    }
+
+    .cta_container {
+        gap: 80px;
+    }
 }
