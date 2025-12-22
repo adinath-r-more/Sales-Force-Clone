@@ -895,6 +895,7 @@ h2:hover {
     border-radius: 4px;
     font-size: 14px;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .social-icons a:hover {
